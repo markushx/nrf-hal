@@ -539,7 +539,7 @@ where
     }
 
     /// Loads the given sequence buffers and optionally (re-)starts sequence playback.
-    /// Returns a `PemSeq`, containing `Pwm<T>` and the buffers.
+    /// Returns a `PwmSeq`, containing `Pwm<T>` and the buffers.
     #[allow(unused_mut)]
     pub fn load<B0, B1>(
         mut self,
